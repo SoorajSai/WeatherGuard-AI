@@ -1,0 +1,22 @@
+{
+  "features": [
+    "p (mbar)",
+    "T (degC)",
+    "Tdew (degC)",
+    "rh (%)",
+    "VPmax (mbar)",
+    "VPact (mbar)",
+    "wv (m/s)",
+    "max. wv (m/s)",
+    "wd (deg)"
+  ],
+  "seq_len": 144,
+  "threshold": 0.017665228595624777,
+  "contamination": 0.03,
+  "val_error_mean": 0.009144377319246224,
+  "val_error_std": 0.0028402837587928518,
+  "n_train_samples": 100812,
+  "n_val_samples": 25203,
+  "final_train_loss": 0.008802167139947414,
+  "final_val_loss": 0.009448695927858353
+}

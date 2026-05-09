@@ -74,8 +74,9 @@ https://www.kaggle.com/datasets/mnassrib/jena-climate
 
 # ⚙️ How It Works
 
-## System Workflow
+# ⚙️ System Workflow
 
+```text
 Weather Dataset / API
         ↓
 Data Preprocessing
@@ -89,7 +90,7 @@ Anomaly Detection
 Risk Analysis
         ↓
 Dashboard + Reports
-
+```
 
 🤖 AI Models Used
 1. Isolation Forest
@@ -108,8 +109,9 @@ Sensor inconsistencies
 
 The LSTM model learns normal weather behavior and flags abnormal sequences using reconstruction error thresholds.
 
-🚀 Installation
-Clone Repository git clone https://github.com/SoorajSai/WeatherGuard-AI.git
+# 🚀 Installation
+
+Clone Repository- git clone https://github.com/SoorajSai/WeatherGuard-AI.git
 
 cd WeatherGuard-AI
 
@@ -144,7 +146,9 @@ Tampered Percentage	Verdict
 0.2–1%	🔶 LOW RISK
 < 0.2%	✅ CLEAN
 
-📁 Project Structure
+# 📁 Project Structure
+
+```text
 WeatherGuard-AI/
 │
 ├── app.py
@@ -164,6 +168,7 @@ WeatherGuard-AI/
 │   └── metadata.json
 │
 └── jena_climate_2009_2016.csv
+```
 
 📈 Output Features
 The system generates:

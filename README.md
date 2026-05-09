@@ -72,8 +72,11 @@ https://www.kaggle.com/datasets/mnassrib/jena-climate
 
 ---
 
-# ⚙️ How It Works
+## 📌 Testing
 
+Sample test datasets are provided in the `Weather_datasets_test/` directory for validating anomaly detection and tampering analysis.
+
+# ⚙️ How It Works
 # ⚙️ System Workflow
 
 ```text
@@ -170,7 +173,7 @@ WeatherGuard-AI/
 └── jena_climate_2009_2016.csv
 ```
 
-📈 Output Features
+#📈 Output Features
 The system generates:
 Anomaly reports
 Correlation graphs
@@ -178,7 +181,7 @@ Training loss graphs
 Error distribution plots
 Detection visualizations
 
-🔮 Future Improvements
+#🔮 Future Improvements
 Real-time weather API integration
 Blockchain-based data integrity
 SMS/Email alerts
@@ -186,6 +189,6 @@ Cloud deployment
 Mobile dashboard
 Real-time streaming analysis
 
-👨‍💻 Author
-Sooraj Bangera
+#👨‍💻 Author
+Sooraj Bangera,
 AIML/Cybersecurity Internship Project
